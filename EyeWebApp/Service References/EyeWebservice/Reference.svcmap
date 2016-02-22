@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2fc9f89e-3088-473e-baf5-643fbcff3d1d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://eyeplatform.azurewebsites.net/EyeWebService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EyeWebService.xsd" MetadataType="Schema" ID="79cbc14b-7942-4e2e-b3c3-678d6d75ba05" SourceId="1" SourceUrl="http://eyeplatform.azurewebsites.net/EyeWebService.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="a5ecc950-a253-4709-9da3-039cc9130940" SourceId="1" SourceUrl="http://eyeplatform.azurewebsites.net/EyeWebService.svc?wsdl" />
+    <MetadataFile FileName="EyeWebService1.xsd" MetadataType="Schema" ID="4788f206-aa3e-4cdb-835a-fba67a2875fd" SourceId="1" SourceUrl="http://eyeplatform.azurewebsites.net/EyeWebService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EyeWebService2.xsd" MetadataType="Schema" ID="20c6cdba-deea-4581-9d53-eb10ab4a5a2a" SourceId="1" SourceUrl="http://eyeplatform.azurewebsites.net/EyeWebService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
